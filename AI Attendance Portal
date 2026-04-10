@@ -1,0 +1,176 @@
+# 📱 AI Attendance Portal (Prompt Engineering Project)
+
+🚀 Live Demo: https://asset-manager--ruchikulshresh1.replit.app
+
+---
+
+## 🧠 Overview
+
+This project focuses on designing a **prompt-driven attendance management system** using Replit as the development platform.
+
+The system replaces traditional manual attendance with:
+
+* One-tap marking
+* Automatic attendance percentage calculation
+* Real-time shortage alerts
+* Exportable attendance reports
+
+---
+
+## 🎯 Objective
+
+To design a structured AI-powered workflow that:
+
+* Digitizes attendance tracking
+* Automates calculations and alerts
+* Connects teacher and student dashboards in real-time
+* Minimizes manual effort through prompt-based logic
+
+---
+
+## ⚙️ Prompt Engineering Highlights
+
+### 1. Authentication Prompt
+
+* Role-based access (Student / Teacher)
+* Structured data collection:
+
+  * Name, Email, College ID, Role
+* Password handling (DOB format: dd/mm/yyyy)
+* Validation and storage logic
+
+---
+
+### 2. Attendance Management Prompt
+
+* One-tap attendance marking (Present/Absent)
+* Links teacher and student records
+* Maintains structured attendance logs
+* Ensures required fields are not null
+
+---
+
+### 3. Attendance Calculation Logic
+
+* Automatically computes attendance percentage
+* Color-coded indicators:
+
+  * 🟢 > 85% → Safe
+  * 🟡 75–85% → Warning
+  * 🔴 < 75% → Critical
+* Calculates number of classes required to reach 75%
+
+---
+
+### 4. Student Dashboard Prompt
+
+* Displays subject-wise attendance percentage
+* Monthly calendar view (Present/Absent)
+* Real-time shortage alerts
+* Graphs and bar charts for visualization
+* Field validation messages
+
+---
+
+### 5. Teacher Dashboard Prompt
+
+* One-tap attendance marking system
+* Subject and date selection
+* Student search functionality
+* Add student feature
+* View students below 75% attendance
+* Export attendance summary (formatted output)
+
+---
+
+### 6. Workflow Integration
+
+* Teacher marks attendance → instantly reflected on student dashboard
+* Automatic percentage updates after each session
+* Real-time synchronization between dashboards
+
+---
+
+## 🔄 System Flow
+
+1. User selects role (Student/Teacher)
+2. Signup/Login with required details
+3. Teacher marks attendance (one-tap system)
+4. Attendance is stored and linked
+5. Student dashboard updates in real-time
+6. System calculates attendance %
+7. Alerts generated for shortage (<75%)
+8. Teacher exports attendance report
+
+---
+
+## ✨ Features
+
+* Prompt-driven attendance system
+* Role-based authentication
+* Real-time attendance tracking
+* Automatic percentage calculation
+* Shortage alerts (<75%)
+* Graphical data visualization (charts & bars)
+* Exportable attendance reports
+* Clean, mobile-responsive UI
+
+---
+
+## 🛠 Platform Used
+
+* Replit (Prompt-based development environment)
+
+---
+
+## 📊 Database Design (Conceptual)
+
+### Teacher
+
+* Name
+* College_ID
+* Department
+* Password (DOB format)
+
+### Student
+
+* Name
+* College_ID
+* Section
+* Password (DOB format)
+
+### Attendance
+
+* Student_ID
+* Teacher_ID
+* Status (Present/Absent)
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots here)
+
+---
+
+## 📌 Key Learning
+
+* Designing structured prompts for real-world systems
+* Creating AI-driven workflows instead of manual logic
+* Handling relational data using prompt-based design
+* Building synchronized multi-user systems
+
+---
+
+## ⚠️ Constraints Handled
+
+* Mandatory fields validation (Student & Teacher IDs)
+* Accurate attendance % calculation
+* No assumptions or hallucinated logic
+* Clean and responsive UI design
+
+---
+
+## 👤 Author
+
+Oorvi Kulshreshtha
