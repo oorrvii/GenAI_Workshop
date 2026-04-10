@@ -1,0 +1,99 @@
+# 🤖 AI Assignment Tracker (Prompt Engineering Project)
+
+🚀 Live Demo: https://smart-solid-study-flow.base44.app
+
+---
+
+## 🧠 Overview
+
+This project focuses on designing and structuring **effective prompts** to build an AI-powered Assignment Tracker using a no-code platform (Base44).
+The system enables teachers to generate assignments using AI and students to interact with them through a structured workflow.
+
+---
+
+## 🎯 Objective
+
+To design a prompt-driven system that:
+
+* Generates assignments using AI
+* Converts them into structured PDFs
+* Enables student submissions
+* Evaluates responses using AI
+* Generates feedback reports
+
+---
+
+## ⚙️ Prompt Engineering Highlights
+
+### 1. Assignment Generation Prompt
+
+* Generates subject-specific MCQs
+* Ensures structured output
+* Converts output → PDF → auto-assigned to students
+
+### 2. Evaluation Prompt
+
+* Analyzes student submissions
+* Classifies performance:
+
+  * Good
+  * Satisfactory
+  * Bad
+* Generates detailed feedback
+* Converts feedback → downloadable PDF for students
+
+### 3. Workflow Automation
+
+* AI-generated assignments automatically:
+
+  * Converted to PDF
+  * Uploaded
+  * Reflected on student dashboard
+
+---
+
+## 🔄 System Flow
+
+1. Teacher generates assignment via AI
+2. AI creates questions → converted to PDF
+3. Assignment auto-uploaded to student dashboard
+4. Student downloads, completes, uploads
+5. AI evaluates submission
+6. Feedback generated → shown & downloadable as PDF
+
+---
+
+## ✨ Features
+
+* AI-based assignment generation
+* Automated PDF creation & distribution
+* AI-based evaluation & feedback
+* Student & Teacher dashboards
+* Deadline tracking with priority indicators
+* Clean and responsive UI
+
+---
+
+## 🛠 Platform Used
+
+* Base44 (No-code AI platform)
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots here)
+
+---
+
+## 📌 Key Learning
+
+* Writing structured prompts for consistent outputs
+* Designing AI workflows instead of just features
+* Handling real-world constraints in prompt-based systems
+
+---
+
+## 👤 Author
+
+Your Name
